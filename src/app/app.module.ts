@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { MessagesComponent } from './messages/messages.component';
-import { SignUpComponent } from './sign-up/sign-up.component';
+
 
 @NgModule({
   declarations: [
@@ -15,7 +15,6 @@ import { SignUpComponent } from './sign-up/sign-up.component';
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
-    SignUpComponent
   ],
   imports: [
     BrowserModule,
